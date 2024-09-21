@@ -79,7 +79,9 @@ class BooleanRetrieval:
                     results.intersection_update(doc_ids)
 
         return list(results) if results else []
-
+```
+## Example Usage:
+```
 if __name__ == "__main__":
     indexer = BooleanRetrieval()
 
